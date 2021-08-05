@@ -1,0 +1,18 @@
+
+appName: demo-quarkus-app
+replicaCount: 2
+labelType: backend
+
+container:
+  repo: jonathasgarcia
+  name: demo-quarkus-k8s
+  port: 8080
+  nodePort: 30081
+  type: NodePort
+
+host:
+  name: testkube.com
+  path: /app
+
+
+
