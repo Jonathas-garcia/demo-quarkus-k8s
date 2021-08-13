@@ -9,7 +9,6 @@ metadata:
       name: {{ .Values.appName }}-ingress
 spec:
   rules:
-#  - host: {{ .Values.host.name }}
    - http:
       paths:
       - pathType: Prefix
